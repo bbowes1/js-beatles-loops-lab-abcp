@@ -19,9 +19,12 @@ return array
 }
 function iLoveTheBeatles(n){
   var array = [];
-  do {array[n] + "I love the Beatles!"}
+  do {
+    n++
+    array.push("I love the Beatles!")}
   while (array.length<15);{
   }
+  
   
   return array;
 }
